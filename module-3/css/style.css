@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 html {
    height: 100%;
    width: 100%;
@@ -31,19 +36,21 @@ img {
 h2{
 	font-size: 21px;
 	color: #263555;
+  text-transform: uppercase;
 }
 
 
-h2 {
-text-transform: uppercase;
-}
-
-
-h3, h5, ul p, h2 {
+h3, ul p {
 	font-size: 14px;
 	color: #263555;
 }
 
+
+h3 {
+  display: block;
+  margin: 20px;
+  margin-left: 0;
+}
 
 p {
 	font-family: Arial;
