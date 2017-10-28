@@ -96,7 +96,7 @@ ol, ul {
 
 ul li {
   width: 45%;
-  margin-left: 45px;
+  margin-left: 15px;
   display: inline-block;
 }
 
@@ -107,7 +107,6 @@ ol {
 
 ol li {
   margin: 20px 40px;
-  position: relative;
   border-bottom: 1px solid #fff;
   counter-increment: item;
 }
@@ -116,14 +115,14 @@ ol li {
 ol li:before {
   content: counter(item);
   margin-right: 40px;
+  display: inline-block;
   width: 20px;
   height: 20px;
-  position: absolute;
   background-color: #50B4E1;
   top: 10px;
   border-radius: 10px;
-  left: -35px;
   color: #fff;
+  text-align: center;
 }
 
 
@@ -141,9 +140,9 @@ ol li:before {
 ul li::before {
   content: "→";
   color: #50B4E1;
-  position: absolute;
-  left: -35px;
 }
+
+
 .testimonial {
   width: 25%;
   display: inline-block;
