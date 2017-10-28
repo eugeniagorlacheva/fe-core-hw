@@ -204,7 +204,7 @@ border: 1px solid #DEDBDB;
 
 .border::after {
   border: 10px solid transparent;
-  border-top: 24px solid #fff;
+  border-top: 24px solid #FCFAFA;
   margin-left: -4px;
 }
 
