@@ -170,7 +170,6 @@ ul li p {
 
 .testimonial {
   width: 25%;
-  height: 250px;
   display: inline-block;
   vertical-align: top;
   position:relative;
@@ -195,8 +194,9 @@ border: 1px solid #DEDBDB;
   border: 11px solid transparent;
   border-top: 27px solid #DEDBDB;
   left: 50%;
-  top: 249px;
+  top: calc(100% - 90px);
   margin-left: -5px;
+  margin-top: -1px;
   width: 0;
   height: 0;
 }
