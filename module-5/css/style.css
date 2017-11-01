@@ -78,6 +78,8 @@ li a{
 .submenu {
   display: none;
   background: #fff;
+  position: relative;
+  margin-top: 10px;
 }
 
 
@@ -86,7 +88,13 @@ li a{
   padding: 5px;
 }
 
-
+.submenu::before {
+  content: '';
+  position: absolute;
+  left: 17px; top: -14px;
+  border: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+}
 nav>li>a:hover {
   color:#6B7488;
 }
@@ -191,12 +199,11 @@ nav li:hover>.submenu {
 }
 
  .venice {
-   position: relative;
    background: url("../img/venice.png") no-repeat center center;
  }
 
 .ven_info {
-  position absolute;
+  display: none;
   height: 100%;
   width: 50%;
   background: #193149;
@@ -204,6 +211,10 @@ nav li:hover>.submenu {
   font-family: Arial;
 	font-size: 13px;
 	color: #cbc6c6;
+}
+
+.venice:hover>.ven_info {
+  display: block;
 }
 
 .ven_head {
