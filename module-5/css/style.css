@@ -91,9 +91,9 @@ li a{
 .submenu::before {
   content: '';
   position: absolute;
-  left: 17px; top: -14px;
+  left: 17px; top: -12px;
   border: 7px solid transparent;
-  border-bottom: 7px solid #fff;
+  border-bottom: 11px solid #fff;
 }
 nav>li>a:hover {
   color:#6B7488;
